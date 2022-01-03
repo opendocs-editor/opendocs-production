@@ -1,0 +1,21 @@
+{
+  "name": "opendocs-production",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://git.nosadnile.net/opendocs/opendocs-production",
+  "author": "Jacob Sapoznikow <jacob1coder@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.24.0",
+    "fs": "^0.0.1-security",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  }
+}
